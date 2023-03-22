@@ -316,6 +316,20 @@ body {
   transition: 800ms ease-in-out;
 }
 
+@media (min-width: 768px) {
+  .new-navdrawer-text-size {
+    font-size: 22px!important;
+    line-height: 26px!important;
+  }
+  .new-navdrawer-contact-size {
+    font-size: 18px!important;
+    line-height: 21px!important;
+    text-transform: none!important;
+    
+  }
+ 
+}
+
 @media screen and (min-width:1148px) {
 
   .project-item:hover {

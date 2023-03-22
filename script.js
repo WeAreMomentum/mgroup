@@ -132,6 +132,25 @@ navDrawerCloseBtn.onclick = () => {
 
 }
 
+// Function to handle clicks outside the target element
+function handleClickOutsideNavDrawer(event) {
+  if (navDrawer && navDrawer.classList.contains("nav-drawer--in") && !navDrawer.contains(event.target) && !burgerBtn.contains(event.target)) {
+    try {
+      navDrawer.classList.toggle("nav-drawer--in");
+      contentWrapper.style.maxHeight = "none";
+      contentWrapper.overflowY = "visible";
+      enableScroll();
+      toggleDrawerAnims();
+    }
+    catch { }
+    console.log('Clicked outside the target element');
+    // Add your logic here to handle the click outside the target element
+  }
+}
+
+// Add a click event listener to the document object
+document.addEventListener('click', handleClickOutsideNavDrawer);
+
 //////////////////////////////
 /// HOME
 //////////////////////////////
