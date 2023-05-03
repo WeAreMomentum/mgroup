@@ -496,3 +496,17 @@ select:after{
 
 
 /*PRIO 2 29.08.2022*/
+
+
+/* Nav Drawer */
+.nav-drawer.nav-drawer--in {
+  height: 100%;
+  max-height: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 5vw;
+  padding-right: 5%;
+  transition: all .6s ease-in-out;
+  display: flex;
+  transform: translate(0);
+}
