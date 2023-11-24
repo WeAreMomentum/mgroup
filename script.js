@@ -427,7 +427,7 @@ projectLinkBox.forEach((linkbox, index) => {
 
 new simpleParallax(paraImages, {
   overflow: true,
-  scale: 1
+  scale: 1.2
 });
 
 //$("[data-paroller-factor]").paroller(); 09.01. change
