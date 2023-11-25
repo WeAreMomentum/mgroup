@@ -1,4 +1,2 @@
-code ist in nem repl gehostet und zustand / best practices so naja, weil Webflow 👹
-
-ToDo:
-Zugang zum repl um code update zu ermöglichen
+this repo is used as a backup of the scripts used on mgroup.at
+the codebase is currently hosted <a href="https://replit.com/@philparzer/m-group#script.js" in a repl on replit.com</a>
